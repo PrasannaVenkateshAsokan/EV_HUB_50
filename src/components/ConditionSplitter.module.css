@@ -1,0 +1,999 @@
+.searchByOwner,
+.valueFilter {
+  position: absolute;
+  margin: 0 !important;
+}
+.valueFilter {
+  border: 2px solid var(--color-gainsboro-100);
+  outline: 0;
+  background-color: var(--color-white);
+  height: 44px;
+  width: 324px;
+  top: 61px;
+  left: -147px;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+}
+.searchByOwner {
+  top: 73px;
+  left: -122px;
+  font-weight: 500;
+  z-index: 1;
+}
+.frameChild {
+  width: 120px;
+  height: 3px;
+  position: relative;
+  display: none;
+  z-index: 0;
+}
+.frameItem {
+  width: 14px;
+  height: 18px;
+  position: absolute;
+  margin: 0 !important;
+  top: 393px;
+  right: 30px;
+  z-index: 2;
+}
+.robertBoschGmbh {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkslateblue);
+  display: none;
+  z-index: 2;
+}
+.frameInner,
+.image28Icon {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 2;
+}
+.frameInner {
+  width: 14px;
+  height: 18px;
+  right: 30px;
+  bottom: 342px;
+}
+.image28Icon {
+  width: 63px;
+  height: 49px;
+  bottom: 340px;
+  left: 186px;
+  object-fit: cover;
+}
+.robertBoschGmbh1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkslateblue);
+  display: none;
+  z-index: 5;
+}
+.image29Icon {
+  width: 63px;
+  height: 49px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 25px;
+  left: 186px;
+  object-fit: cover;
+  z-index: 2;
+}
+.span {
+  color: var(--color-black);
+}
+.location,
+.rectangleDiv {
+  position: relative;
+  display: none;
+}
+.location {
+  font-weight: 500;
+  z-index: 7;
+}
+.rectangleDiv {
+  align-self: stretch;
+  height: 858px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  z-index: 8;
+}
+.eventTriggerIcon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -11px;
+  left: 139px;
+  z-index: 1;
+}
+.variableProcessorChild {
+  height: 81px;
+  width: 850px;
+  position: relative;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-steelblue);
+  display: none;
+  max-width: 100%;
+}
+.editGarage {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 2;
+}
+.iterationHandler,
+.sequenceController,
+.variableProcessor {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.variableProcessor {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12xl) var(--padding-xl) var(--padding-4xl)
+    var(--padding-18xl);
+  background-color: var(--color-steelblue);
+  flex: 1;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.variableProcessor:hover {
+  background-color: var(--color-steelblue-100);
+}
+.iterationHandler,
+.sequenceController {
+  justify-content: flex-start;
+}
+.iterationHandler {
+  flex: 1;
+  position: relative;
+}
+.sequenceController {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs) var(--padding-mid) 0;
+  box-sizing: border-box;
+}
+.dataConverterChild,
+.image30Icon {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 2;
+}
+.image30Icon {
+  height: 46px;
+  width: 69px;
+  bottom: 26px;
+  left: 159px;
+  object-fit: cover;
+}
+.dataConverterChild {
+  height: 18px;
+  width: 14px;
+  right: 3px;
+  bottom: 27px;
+}
+.image28Icon1 {
+  height: 49px;
+  width: 63px;
+  top: 37.8px;
+  left: 162px;
+}
+.image26Icon,
+.image28Icon1,
+.image30Icon1 {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+  z-index: 2;
+}
+.image30Icon1 {
+  height: 46px;
+  width: 69px;
+  top: 145.8px;
+  left: 159px;
+}
+.image26Icon {
+  height: 63px;
+  width: 65px;
+  bottom: 226px;
+  left: 163px;
+}
+.garageName {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.whileNodeChild {
+  height: 45px;
+  width: 390px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.shelbyAutoGarage {
+  width: 161px;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  color: var(--color-darkgray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 2;
+}
+.caseNode,
+.whileNode {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.whileNode {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-mid) var(--padding-smi);
+  z-index: 1;
+}
+.caseNode {
+  flex-direction: column;
+  gap: 13px 0;
+}
+.caseNodeChild,
+.owner {
+  position: relative;
+  z-index: 1;
+}
+.owner {
+  font-weight: 500;
+}
+.caseNodeChild {
+  align-self: stretch;
+  height: 45px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.caseNode1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid);
+  gap: 13px 0;
+}
+.span1 {
+  color: var(--color-red);
+}
+.caseNodeItem,
+.email {
+  position: relative;
+  z-index: 1;
+}
+.email {
+  font-weight: 500;
+}
+.caseNodeItem {
+  align-self: stretch;
+  height: 45px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.caseNode2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  gap: 13px 0;
+}
+.caseNodeInner,
+.website {
+  position: relative;
+  z-index: 1;
+}
+.website {
+  font-weight: 500;
+}
+.caseNodeInner {
+  border: 1px solid var(--color-gainsboro-100);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 45px;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  min-width: 234px;
+}
+.caseNode3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px 0;
+}
+.garageLogo {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.ifElseNode {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+  min-width: 253px;
+  max-width: 100%;
+}
+.span2 {
+  color: var(--color-black);
+}
+.span3 {
+  color: var(--color-red);
+}
+.address {
+  position: relative;
+  font-weight: 500;
+  z-index: 6;
+}
+.bubbleSortNodeChild {
+  height: 18px;
+  width: 14px;
+  position: absolute;
+  margin: 0 !important;
+  right: 3px;
+  bottom: -5px;
+  z-index: 2;
+}
+.insertionSortNodeChild {
+  height: 45px;
+  width: 390px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.bucketSortNode {
+  height: 22px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 6;
+}
+.heapSortNodeChild {
+  width: 14px;
+  height: 18px;
+  position: relative;
+  z-index: 6;
+}
+.heapSortNode,
+.insertionSortNode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.insertionSortNode {
+  height: 45px;
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-3xs);
+  gap: 0 12px;
+  max-width: 100%;
+  z-index: 1;
+}
+.bubbleSortNode,
+.mergeSortNode {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bubbleSortNode {
+  flex-direction: row;
+  position: relative;
+}
+.mergeSortNode {
+  flex-direction: column;
+  gap: 13px 0;
+}
+.chain {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.groupIcon {
+  height: 18px;
+  width: 14px;
+  position: absolute;
+  margin: 0 !important;
+  right: 3px;
+  bottom: -12px;
+  z-index: 2;
+}
+.frameChild1 {
+  height: 45px;
+  width: 390px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.lineIcon,
+.radixSortNode {
+  position: absolute;
+  top: 9px;
+  left: 9.5px;
+  width: 22px;
+  height: 13px;
+  z-index: 2;
+}
+.lineIcon {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 29px;
+  object-fit: contain;
+}
+.radixSortNodeParent {
+  height: 29px;
+  width: 31.5px;
+  position: relative;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-4xs) var(--padding-sm) var(--padding-6xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.foldRightFunctionNode,
+.frameParent,
+.mergeSortNode1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: row;
+  position: relative;
+}
+.foldRightFunctionNode,
+.mergeSortNode1 {
+  flex-direction: column;
+  gap: 13px 0;
+}
+.foldRightFunctionNode {
+  gap: 16px 0;
+}
+.span4 {
+  color: var(--color-red);
+}
+.phone {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.foldLeftFunctionNode {
+  border: 1px solid var(--color-gainsboro-100);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 45px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  min-width: 234px;
+  z-index: 1;
+}
+.filterFunctionNode {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px 0;
+}
+.span5 {
+  color: var(--color-red);
+}
+.address1 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.filterFunctionNodeChild {
+  border: 1px solid var(--color-gainsboro-100);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 45px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  min-width: 234px;
+  z-index: 1;
+}
+.branchNode,
+.filterFunctionNode1,
+.mapFunctionNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.filterFunctionNode1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 13px 0;
+}
+.branchNode,
+.mapFunctionNode {
+  max-width: 100%;
+}
+.mapFunctionNode {
+  flex: 1;
+  flex-direction: column;
+  gap: 31.5px 0;
+  min-width: 253px;
+}
+.branchNode {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 20px;
+}
+.rightJoinNodeChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-silver-400);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.image26Icon1 {
+  position: absolute;
+  width: calc(100% - 10px);
+  top: 7px;
+  right: 6px;
+  left: 4px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 63px;
+  object-fit: cover;
+  z-index: 3;
+}
+.rightJoinNode {
+  cursor: pointer;
+  border: 2px solid var(--color-silver-400);
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 10px;
+  left: 0;
+  box-sizing: border-box;
+  width: 75px;
+  height: 75px;
+  z-index: 1;
+}
+.crossJoinNode {
+  position: absolute;
+  top: 0;
+  left: 68px;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+}
+.innerJoinNode {
+  height: 85px;
+  flex: 1;
+  position: relative;
+}
+.dataComparator,
+.dataConverter,
+.leftJoinNode,
+.loopNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.leftJoinNode {
+  width: 120px;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.dataComparator,
+.dataConverter,
+.loopNode {
+  max-width: 100%;
+}
+.loopNode {
+  flex: 1;
+  flex-direction: column;
+  gap: 3px 0;
+}
+.dataComparator,
+.dataConverter {
+  flex-direction: row;
+}
+.dataConverter {
+  flex: 1;
+  position: relative;
+}
+.dataComparator {
+  align-self: stretch;
+  padding: 0 var(--padding-8xl) 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.createdOn {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.image31Icon {
+  height: 63px;
+  width: 65px;
+  position: absolute;
+  margin: 0 !important;
+  top: -28px;
+  right: 162px;
+  object-fit: cover;
+  z-index: 2;
+}
+.filterNodeChild {
+  height: 45px;
+  width: 390px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.treeStructure {
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.filterNode {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-mid) var(--padding-smi);
+  z-index: 1;
+}
+.filterNode,
+.rankingFunctionNode,
+.temporalFunctionNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.temporalFunctionNode {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.rankingFunctionNode {
+  flex: 1;
+  flex-direction: column;
+  gap: 13px 0;
+  min-width: 253px;
+}
+.updatedOn {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.frameChild2 {
+  height: 18px;
+  width: 14px;
+  position: absolute;
+  margin: 0 !important;
+  top: 7px;
+  right: 3px;
+  z-index: 2;
+}
+.frameChild3 {
+  height: 45px;
+  width: 390px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.div {
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.rectangleGroup {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-sm) var(--padding-smi);
+  max-width: 100%;
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.frameGroup,
+.havingNode,
+.rankingFunctionNode1,
+.windowFunctionNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rankingFunctionNode1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 13px 0;
+  min-width: 253px;
+}
+.havingNode,
+.windowFunctionNode {
+  flex-direction: row;
+}
+.windowFunctionNode {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 0 20px;
+}
+.havingNode {
+  padding: 0 var(--padding-5xl);
+}
+.groupByNode,
+.havingNode,
+.inputCombiner {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.inputCombiner {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-100);
+  z-index: 1;
+}
+.groupByNode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+  gap: 26px 0;
+  max-width: 100%;
+}
+.mergeNodesChild {
+  height: 40px;
+  width: 125px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.save {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-gray-100);
+  text-align: left;
+  z-index: 2;
+}
+.mergeNodes {
+  cursor: pointer;
+  border: 2px solid var(--color-gray-100);
+  padding: var(--padding-3xs) var(--padding-21xl) var(--padding-3xs)
+    var(--padding-23xl);
+  background-color: var(--color-white);
+  flex: 0.312;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.iterationNode:hover,
+.mergeNodes:hover {
+  background-color: var(--color-gainsboro-500);
+  border: 2px solid var(--color-gray-900);
+  box-sizing: border-box;
+}
+.mergeNodesItem {
+  height: 18px;
+  width: 14px;
+  position: absolute;
+  margin: 0 !important;
+  right: 7px;
+  bottom: 4px;
+  z-index: 2;
+}
+.iterationNodeChild {
+  height: 40px;
+  width: 125px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.close {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-gray-100);
+  text-align: left;
+  z-index: 2;
+}
+.iterationNode {
+  cursor: pointer;
+  border: 2px solid var(--color-gray-100);
+  padding: var(--padding-3xs) var(--padding-19xl) var(--padding-3xs)
+    var(--padding-20xl);
+  background-color: var(--color-white);
+  flex: 1;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.mergeNodes1 {
+  flex: 1;
+  position: relative;
+}
+.mergeNodes1,
+.sortingNode,
+.valueSplitter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sortingNode {
+  flex: 1;
+  gap: 0 15px;
+}
+.valueSplitter {
+  width: 311px;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+}
+.conditionSplitter,
+.vectorParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vectorParent {
+  flex: 1;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-base);
+  z-index: 5;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+}
+.conditionSplitter {
+  position: absolute;
+  top: 77px;
+  left: 300px;
+  width: 851px;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-400);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .location {
+    font-size: var(--font-size-base);
+  }
+  .editGarage {
+    font-size: var(--font-size-lg);
+  }
+  .address,
+  .address1,
+  .chain,
+  .createdOn,
+  .email,
+  .garageLogo,
+  .garageName,
+  .owner,
+  .phone,
+  .updatedOn,
+  .website {
+    font-size: var(--font-size-base);
+  }
+}

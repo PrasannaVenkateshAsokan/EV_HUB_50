@@ -1,0 +1,260 @@
+.vehiclesListChild {
+  width: 372px;
+  height: 44px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.aagNapaGarage1 {
+  position: relative;
+  font-weight: 500;
+  display: none;
+}
+.errorHandler,
+.plusNode {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.errorHandler {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 48px;
+  gap: 19px 0;
+  max-width: 100%;
+}
+.plusNode {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-400);
+}
+.divideNodeChild {
+  width: 17px;
+  height: 11.8px;
+  position: relative;
+}
+.divideNode {
+  height: 20.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.barChartIcon {
+  width: 10px;
+  height: 11.8px;
+  position: relative;
+}
+.divideNode1 {
+  height: 20.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  width: 10px;
+  height: 11.8px;
+  position: relative;
+  object-fit: contain;
+}
+.divideNode2 {
+  height: 20.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.divideNodeItem {
+  width: 17px;
+  height: 11.8px;
+  position: relative;
+  object-fit: contain;
+}
+.divideNode3 {
+  height: 20.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) 0 0;
+  box-sizing: border-box;
+}
+.of1,
+.page {
+  position: relative;
+  font-weight: 500;
+}
+.of1 {
+  color: var(--color-darkslateblue);
+}
+.powerNode,
+.sineNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sineNode {
+  flex-direction: row;
+  gap: 0 13px;
+}
+.powerNode {
+  height: 24.6px;
+  flex-direction: column;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.goToPage {
+  position: relative;
+  font-weight: 500;
+}
+.arcsinNode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4.600000000000023px 0 0;
+}
+.arctanNodeChild {
+  height: 29.2px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: none;
+}
+.squareRootNode {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.arctanNode,
+.tangentNode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arctanNode {
+  width: 60px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  padding: var(--padding-7xs-5) var(--padding-4xl) 3.7000000000000455px
+    var(--padding-7xl);
+}
+.tangentNode {
+  gap: 0 7px;
+}
+.logarithmNode {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 29.2px;
+  right: -50px;
+  bottom: -29.2px;
+  left: 50px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslateblue);
+  border: 1px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.go {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.cubeRootNode {
+  cursor: pointer;
+  border: 0;
+  padding: 4.600000000000023px var(--padding-4xs) 4.600000000000023px
+    var(--padding-3xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.minusNode,
+.multiplyNode {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.multiplyNode {
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 23px;
+}
+.minusNode {
+  width: 1402px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.angleBracketNode,
+.vehiclesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-family: var(--font-montserrat);
+}
+.angleBracketNode {
+  align-self: stretch;
+  height: 48.2px;
+  align-items: flex-end;
+  gap: 19px 0;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray-100);
+}
+.vehiclesList {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-7xs) 0 24.799999999999955px;
+  gap: 11px 0;
+  letter-spacing: normal;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-400);
+}
+@media screen and (max-width: 750px) {
+  .errorHandler {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .multiplyNode {
+    flex-wrap: wrap;
+  }
+  .angleBracketNode {
+    height: auto;
+  }
+}

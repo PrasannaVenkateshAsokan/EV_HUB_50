@@ -1,0 +1,511 @@
+.vehicles {
+  position: relative;
+  font-weight: 600;
+}
+.searchByRegistrationText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.selectAGarageTextChild {
+  height: 44px;
+  width: 324px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.vectorContainer {
+  width: 200px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-400);
+}
+.thirdVectorIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+  z-index: 1;
+}
+.garageNameText,
+.selectAGarageText {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.selectAGarageText {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: var(--padding-2xs) var(--padding-base) var(--padding-4xs)
+    var(--padding-sm);
+  min-width: 208px;
+  gap: var(--gap-xl);
+}
+.garageNameText {
+  justify-content: flex-start;
+  gap: 0 10px;
+  min-width: 286px;
+  max-width: 100%;
+}
+.frameWithVectorChild {
+  height: 44px;
+  width: 372px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.selectAGarage {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.goButtonIcon {
+  width: 22px;
+  height: 13px;
+  position: relative;
+  z-index: 1;
+}
+.pageNavigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.brandFrame,
+.brandVector,
+.frameWithVector {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWithVector {
+  width: 372px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-sm);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-400);
+}
+.brandFrame,
+.brandVector {
+  justify-content: flex-start;
+}
+.brandVector {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 70px;
+}
+.brandFrame {
+  width: 878px;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.firstNestedVector {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+.nestedFramesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-6xs) 0 0;
+}
+.secondNestedVectorChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.thirdNestedVector {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  width: 25px;
+  height: 20px;
+  z-index: 1;
+}
+.secondNestedVector {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-darkslateblue);
+  height: 49px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+}
+.vectorIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+.nestedFramesContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.lineVectorFrame,
+.modelFrame,
+.timeStampFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.lineVectorFrame {
+  width: 152px;
+  justify-content: flex-start;
+  gap: 0 19px;
+}
+.modelFrame,
+.timeStampFrame {
+  max-width: 100%;
+}
+.modelFrame {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.timeStampFrame {
+  width: 1425px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.lineSeparatingLine {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+}
+.brandNameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+}
+.bBrandTextChild {
+  height: 59px;
+  width: 354px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.brandVectorFrame {
+  height: 25px;
+  width: 23px;
+  position: relative;
+  min-height: 25px;
+  z-index: 1;
+}
+.timeFrame {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-gray-400);
+  text-align: left;
+  z-index: 1;
+}
+.timeFrameModel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  min-width: 105px;
+}
+.groupVectorGroup {
+  width: 17px;
+  height: 10px;
+  position: relative;
+  z-index: 1;
+}
+.bBrandText,
+.goToPage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.bBrandText {
+  cursor: pointer;
+  border: 2px solid var(--color-gainsboro-100);
+  padding: var(--padding-mini) var(--padding-2xl) var(--padding-mini)
+    var(--padding-68xl);
+  background-color: var(--color-white);
+  flex: 1;
+  border-radius: var(--br-11xl);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 18px;
+  min-width: 202px;
+  max-width: 100%;
+}
+.b,
+.bBrandTextItem,
+.brand {
+  position: relative;
+  display: none;
+}
+.bBrandTextItem {
+  height: 59px;
+  width: 354px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.b,
+.brand {
+  z-index: 1;
+}
+.brand {
+  width: calc(100% - 17px);
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-lg);
+  background-color: transparent;
+  height: 22px;
+  flex: 1;
+  color: var(--color-gray-400);
+  text-align: left;
+  display: inline-block;
+  min-width: 34px;
+  padding: 0;
+}
+.bParent {
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 13px;
+}
+.vectorIcon1 {
+  width: 17px;
+  height: 10px;
+  position: relative;
+  z-index: 1;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.bBrandText1,
+.bBrandTextInner {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bBrandText1 {
+  flex: 0.8277;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-mid) var(--padding-7xl) var(--padding-base)
+    var(--padding-104xl);
+  min-width: 202px;
+  gap: var(--gap-xl);
+}
+.bBrandTextInner {
+  height: 59px;
+  width: 354px;
+  position: relative;
+  display: none;
+}
+.model,
+.vectorIcon2 {
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon2 {
+  height: 25px;
+  width: 25px;
+  min-height: 25px;
+}
+.model {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-gray-400);
+  text-align: left;
+}
+.modelWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  min-width: 73px;
+}
+.vectorIcon3 {
+  width: 17px;
+  height: 10px;
+  position: relative;
+  z-index: 1;
+}
+.vectorFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  width: 17px;
+  height: 17px;
+}
+.bBrandText2 {
+  cursor: pointer;
+  border: 2px solid var(--color-gainsboro-100);
+  padding: var(--padding-mini) var(--padding-13xl) var(--padding-mini)
+    var(--padding-81xl);
+  background-color: var(--color-white);
+  flex: 0.8992;
+  border-radius: var(--br-11xl);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 0 30px;
+  min-width: 202px;
+}
+.bBrandText2,
+.innerFramesContainer,
+.mainContentFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.innerFramesContainer {
+  width: 1250px;
+  justify-content: flex-start;
+  gap: 0 100px;
+}
+.mainContentFrame {
+  width: 1420px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 26px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1100px) {
+  .innerFramesContainer,
+  .modelFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .brandVector {
+    flex-wrap: wrap;
+    gap: 0 35px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .innerFramesContainer {
+    gap: 0 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .garageNameText {
+    flex-wrap: wrap;
+  }
+  .brandVector {
+    gap: 0 17px;
+  }
+  .bBrandText,
+  .bBrandText1,
+  .bBrandText2 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .bBrandText {
+    flex-wrap: wrap;
+  }
+  .bBrandText1,
+  .bBrandText2 {
+    flex: 1;
+  }
+  .bBrandText2 {
+    flex-wrap: wrap;
+    gap: 0 15px;
+  }
+  .innerFramesContainer {
+    gap: 0 25px;
+  }
+}
